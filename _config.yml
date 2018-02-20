@@ -23,6 +23,7 @@ url: https://shiwanibisht.github.io
 github: [metadata]
 repository: shiwanibisht/shiwanibisht.github.io
 github_username:  shiwanibisht
+linkedin_username: shiwani-bisht
 
 # Build settings
 markdown: kramdown
@@ -34,3 +35,9 @@ plugins_dir:
 exclude:
   - Gemfile
   - Gemfile.lock
+defaults:
+  -
+    scope:
+      path: "assets/resume"
+    values:
+      resume: true
