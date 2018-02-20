@@ -28,10 +28,10 @@ linkedin_username: shiwani-bisht
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
-plugins_dir:
   - jekyll-github-metadata
+  - jemoji
 exclude:
   - Gemfile
   - Gemfile.lock
